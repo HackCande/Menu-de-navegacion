@@ -138,3 +138,17 @@ body {
     font-size: 18px;
     text-align: center;
 }
+
+#log_out {
+    position: absolute;
+    color: #fff;
+    left: 90%;
+    bottom: 6px;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    /* Sirve para poder mover el elemento horizontalmente, es decir, centrarlo*/
+    line-height: 50px;
+    transform: translateX(-50%);
+}
